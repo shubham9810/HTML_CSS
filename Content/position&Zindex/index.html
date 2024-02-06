@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in Css</title>
+    <style>
+        .parent-div{
+             width:500px;
+             height: 500px;
+             background-image: linear-gradient(#1d2b64,#f8cdda);
+             margin: auto;
+             border: 1px solid blue;
+             position: relative;
+            
+        }
+        .child{
+             position: absolute;
+             width: 100px;
+             height: 100px;
+             text-align: center;
+             align-items: center;
+             justify-content: center;
+             background-image: linear-gradient(#FF512F,#F09819);
+        }
+        /* .div1{
+            top: 0;
+            right: 0;
+        }
+        .div2{
+            top: 0;
+            left: 0;
+        }
+        .div3{
+            bottom: 0;
+            right: 0;
+        }
+        .div4{
+            bottom: 0;
+        } */
+        .div3{
+            z-index: 1;
+        }
+        .div2{
+            z-index: 2;
+        }
+        .div3{
+            z-index: 3;
+        }
+        .div5{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+             
+        }
+        
+    </style>
+
+</head>
+ <body>
+     <h1 class="main-heading">Position in Css</h1>   
+     <section class="parent-div">
+         <div class="child div1">Child div 1</div>
+         <div class="child div3">Child div 3</div>
+         <div class="child div2">Child div 2</div>
+         <div class="child div4">Child div 4</div>
+         <div class="child div5">Center</div>
+     </section>
+    </body>
+</html>

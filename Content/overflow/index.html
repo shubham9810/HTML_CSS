@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         section{
+             
+            position: relative;
+            display: flex;
+             margin: 200px auto;
+         }
+         div{
+             width: 500px;
+             height: 300px;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%,-50%);
+             position: absolute;
+             border: 1px solid red;  
+             background-image: linear-gradient(#737328,#737398);
+             padding: 15px 25px;
+             /* overflow: scroll; */
+             overflow: auto;
+             /* overflow-x: scroll; */
+             /* overflow: hidden; */
+         }
+    </style>
+</head>
+<body>
+    <section>
+      <div>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. At atque eligendi aspernatur quidem, iste amet non, voluptate totam enim dolorem quam earum quod deleniti ea vitae animi, exercitationem velit sit excepturi sed cupiditate reprehenderit dolore! Rem doloribus inventore vel? A quasi accusantium eligendi suscipit neque aliquid, odit nam fugiat consequatur perferendis quia provident ullam possimus architecto quis incidunt debitis quaerat vitae molestias labore iure dolore. Optio suscipit dolore sunt aperiam. Animi doloremque est ipsam id vitae? At magnam nihil voluptate provident quod. Perferendis illo voluptas consequuntur, sequi sit ea laborum mollitia? Totam sit exercitationem, ab voluptatem adipisci incidunt eveniet animi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat iste rerum illo hic esse, totam recusandae eius, neque distinctio officiis nesciunt sint qui voluptatem, vero unde quia amet cum in praesentium odio cumque obcaecati! Illum velit cumque repudiandae nulla sit! Illum ratione maiores quaerat, rem voluptatibus deserunt nobis ducimus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem omnis voluptatilorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus error repellendus voluptatum veniam delectus debitis. Natus, debitis eveniet accusamus rerum nostrum odio fugiat nihil expedita sequi, error sapiente repellendus placeat. 
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore doloremque eligendi vitae dolorem magnam tempora accusamus voluptates doloribus cum laborum quam porro ipsam, asperiores sint, corporis veritatis ex impedit deleniti.
+          bus laudantium facilis dolores. Quos quibusdam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, laborum excepturi incidunt in optio perspiciatis accusantium iure obcaecati, sed molestias quis facilis at qui praesentium nulla rem amet temporibus? Sapiente.iusto voluptatum molestias. Aut rerum adipisci labore voluptatum quisquam magnam ullam iusto deserunt eligendi?
+      </div>
+    </section>
+</body>
+</html>
